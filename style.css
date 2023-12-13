@@ -1,0 +1,175 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+}
+
+header {
+    background-color:  #e1b382;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+ /*STILOVI ZA NAV MENI*/
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section { /*CSS ZA RASPORED KNJIGA*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.book { /*CSS ZA KNJIGE POJEDINACAN*/
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.book img { /*CSS ZA KNJIGE*/
+    max-width: 250px; 
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+
+.book-info { /*INFORM O KNJIGI*/
+    flex-grow: 1;
+}
+
+.book:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+
+/*RECENZIJE I PREPORUKE NA POCETNOJ STRANI*/
+.dio_recenzije {
+    margin-top: 30px;
+}
+
+.recenzija {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.recenzija p {
+    margin: 0;
+}
+
+.ocijena {
+    margin-top: 20px;
+}
+
+.ocijena img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+
+a { /*UKLANJA PLAVU BOJU NA LINKU*/
+    color: inherit;     
+}
+ /* PARTNERI */
+ .partners {
+    width: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: black;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    
+}
+
+.partner-list dl {
+    list-style-type: circle;
+    padding: 0;
+    margin: 0;
+}
+
+.additional-partner-content {
+    margin-top: 20px;
+}
+ /*MOJ INFO */
+.your-info-container {
+    width: 20%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.your-info {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.your-info img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* KONTAKT STRANICA */
+
+section form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Knjižara</h1>
+        <nav>
+            <ul>
+                <li><a href="Pocetna.html">Početna strana</a></li>
+                <li><a href="lista-knjiga.html">Lista knjiga</a></li>
+                <li><a href="prodaja.html">Prodaja</a></li>
+                <li><a href="Kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Informacije o kontaktu</h2>
+            <p>Ako imate pitanja ili komentare, slobodno nas kontaktirajte putem informacija u nastavku:</p>
+
+            <address>
+                <strong>Adresa:</strong><br>
+                In process<br>
+                Tuzla, Bosna i Hercegovina, 75000
+            </address>
+
+            <p><strong>Email:</strong> info@vasknjizara.ba</p>
+            <p><strong>Telefon:</strong> +387 64 45 29 556</p>
+        </section>
+
+        <section>
+            <h2>Pošaljite nam poruku</h2>
+            <form action="obrada_forme.php" method="post">
+                <label for="ime">Ime:</label>
+                <input type="text" id="ime" name="ime" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="poruka">Poruka:</label>
+                <textarea id="poruka" name="poruka" rows="4" required></textarea>
+
+                <button type="submit">Pošaljite poruku</button>
+            </form>
+        </section>
+</body>
+</html>
